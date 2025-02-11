@@ -1,4 +1,5 @@
 import styles from "./page.module.css";
+import Image from "next/image"
 
 export default function Home() {
   //JavaScriptの定数や式などを書くことができる
@@ -7,9 +8,18 @@ export default function Home() {
   //HTMLのようなマークアップを書くことができる
   //JavaScriptを書いたり、参照する際には{}で囲む
   return (
-    <div>
-      <h1 className={styles.title}>テクノロジーの力で{name}を変える</h1>
-      <p className={styles.description}>私たちは市場をリードしているグローバルテックカンパニーです。</p>
-  </div>
+    <section className={styles.top}>
+      <div>
+        <h1 className={styles.title}>テクノロジーの力で{name}を変える</h1>
+        <p className={styles.description}>私たちは市場をリードしているグローバルテックカンパニーです。</p>
+      </div>
+      <Image 
+        className={styles.bgimg} 
+        src="/img-mv.jpg" 
+        alt=""
+        width={4000}
+        height={1200}
+        />
+    </section>
   );
 }
