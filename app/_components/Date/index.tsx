@@ -1,5 +1,6 @@
 import Image from "next/Image"
 import styles from "./index.module.css"
+import { formatDate } from "@/app/_libs/utils"
 
 type Props = {
     date: string;
@@ -14,6 +15,7 @@ export default function Date({date} :Props){
             height={16}
             loading="eager"
             />
+            {formatDate(date)}
         </span>
     )
 }
