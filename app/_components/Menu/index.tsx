@@ -1,6 +1,6 @@
 "use client";
 import Image from "next/image";
-import Link from "next/Link";
+import Link from "next/link";
 import styles from "./index.module.css";
 import { useState } from "react";
 import cx from "classnames"

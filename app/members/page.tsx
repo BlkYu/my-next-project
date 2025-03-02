@@ -1,4 +1,4 @@
-import Image from "next/Image";
+import Image from "next/image";
 import styles from "./page.module.css"
 import { getMembersList} from "@/app/_libs/microcms";
 import { MEMBERS_LISTT_LIMIT } from "../_constants";
