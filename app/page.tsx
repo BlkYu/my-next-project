@@ -6,6 +6,8 @@ import { TOP_NEWS_LIMIT } from "./_constants";
 import {News} from "@/app/_libs/microcms"
 import NewsList from "@/app/_components/NewsList"
 
+export const revalidate = 60;
+
 export default async function Home() {
 
   const data = await getNewsList({
