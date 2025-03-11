@@ -1,13 +1,14 @@
 import Hero from "../_components/Hero";
 import Sheet from "../_components/Sheet";
 
-export const metatdatta = {
-    title: "ニュース"
-}
 
 type Props = {
     children: React.ReactNode;
 };
+
+export const metatdatta = {
+    title: "ニュース"
+}
 
 export const revalidate = 60;
 
