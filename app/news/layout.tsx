@@ -6,7 +6,7 @@ type Props = {
     children: React.ReactNode;
 };
 
-export const metatdatta = {
+export const metadata = {
     title: "ニュース"
 }
 
