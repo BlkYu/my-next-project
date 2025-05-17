@@ -2,7 +2,7 @@ import ButtonLink from "./_components/ButtonLink";
 import styles from "./page.module.css";
 import Image from "next/image"
 import { getNewsList } from "@/app/_libs/microcms";
-import { TOP_NEWS_LIMIT } from "./_constants";
+import { TOP_NEWS_LIMIT, WEB_DISCRIBE, WEB_TITLE } from "./_constants";
 import {News} from "@/app/_libs/microcms"
 import NewsList from "@/app/_components/NewsList"
 
@@ -18,8 +18,8 @@ export default async function Home() {
     <>
     <section className={styles.top}>
       <div>
-        <h1 className={styles.title}>ふじ珠算教室</h1>
-        <p className={styles.description}>私たちは市場をリードしているグローバルテックカンパニーです。</p>
+        <h1 className={styles.title}>{WEB_TITLE}</h1>
+        <p className={styles.description}>{WEB_DISCRIBE}</p>
       </div>
       <Image 
         className={styles.bgimg} 
