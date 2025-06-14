@@ -14,7 +14,7 @@ export default function Menu(){
         <div>
             <nav className={cx(styles.nav, isOpen && styles.open)}>
                 <ul className={styles.items}>
-                    <li>
+                    {/* <li>
                         <Link href="/news">ニュース</Link>
                     </li>
                     <li>
@@ -22,7 +22,7 @@ export default function Menu(){
                     </li>
                     <li>
                         <Link href="/contact">お問合せ</Link>
-                    </li>
+                    </li> */}
                 </ul>
             </nav>
             {isOpen ? (

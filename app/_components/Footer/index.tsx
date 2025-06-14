@@ -6,7 +6,7 @@ export default function Footer(){
         <footer className={styles.footer}>
             <nav className={styles.nav}>
                 <ul className={styles.items}>
-                    <li className={styles.item}>
+                    {/* <li className={styles.item}>
                         <Link href="/news">ニュース</Link>
                     </li>
                     <li className={styles.item}>
@@ -14,7 +14,7 @@ export default function Footer(){
                     </li>
                     <li className={styles.item}>
                         <Link href="/contact">お問合せ</Link>
-                    </li>
+                    </li> */}
                 </ul>
             </nav>
         </footer>
